@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Ahmed | AI Systems & MLOps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #3b82f6;
+            --bg-dark: #020408;
+        }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #fafafa;
+        }
+        .dark body {
+            background-color: var(--bg-dark);
+        }
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .bento-card {
+            @apply bg-white dark:bg-white/[0.03] border border-slate-200 dark:border-white/[0.08] rounded-[2rem] p-8 transition-all duration-500;
+        }
+        .bento-card:hover {
+            @apply border-blue-500/50 shadow-2xl shadow-blue-500/10;
+        }
+        .glow {
+            box-shadow: 0 0 80px -20px var(--accent);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #1d4ed8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb {
+            background: rgba(59, 130, 246, 0.2);
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#020408',
+                        accent: '#3b82f6',
+                    },
+                    borderRadius: {
+                        '4xl': '2rem',
+                    }
+                }
+            }
+        }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "framer-motion": "https://esm.sh/framer-motion@^11.11.10"
+  }
+}
+</script>
+</head>
+<body class="dark:bg-dark text-slate-900 dark:text-slate-300 transition-colors duration-500 overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
