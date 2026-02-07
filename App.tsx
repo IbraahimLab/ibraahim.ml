@@ -23,7 +23,7 @@ const AnimatedRoutes = () => {
     // initial={false} prevents the entering animation on the very first load
     // which often causes glitches in single-page route mounting.
     <AnimatePresence mode="wait" initial={false}>
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
