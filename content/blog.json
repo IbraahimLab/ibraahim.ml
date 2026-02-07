@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Beyond the Prompt: Architecting Agentic RAG",
+    "excerpt": "The transition from simple semantic similarity to complex, state-driven reasoning loops. This post dives into LangGraph implementation details for long-running research tasks and error-correction in autonomous agents.",
+    "content": "\n      In the rapidly evolving landscape of Large Language Models (LLMs), basic Retrieval-Augmented Generation (RAG) is quickly becoming table stakes. While vector search provides a significant boost to model context, it often fails when faced with multi-step reasoning or dynamic information retrieval needs.\n\n      ### Enter Agentic RAG\n      \n      Agentic RAG represents a paradigm shift from static pipelines to dynamic reasoning loops. Instead of a linear sequence of retrieval -> generation, we empower the model with a set of tools and a state management system. \n\n      ### Why LangGraph?\n      \n      LangGraph allows us to define the \"cognitive architecture\" of an agent using a directed graph. This is crucial for:\n      1. **Persistence**: Maintaining state across multiple retrieval attempts.\n      2. **Cycles**: Allowing the agent to \"re-think\" if the initial retrieval was insufficient.\n      3. **Fine-grained Control**: Explicitly defining transitions between different search strategies.\n\n      In my latest implementation, I've utilized LangGraph to coordinate between local PDF parsing (via Docling) and external research APIs (arXiv and Serper). This creates a truly autonomous researcher that doesn't just answer—it investigates.\n    ",
+    "date": "Feb 02, 2024",
+    "readTime": "10 min",
+    "category": "Research"
+  },
+  {
+    "id": "2",
+    "title": "MLOps at Scale: DVC & MLflow Integration",
+    "excerpt": "Treating machine learning as a disciplined engineering practice. A guide on how to link data version control with experiment tracking to ensure reproducible research across heterogeneous cloud environments.",
+    "content": "\n      Reproducibility is the bedrock of science, yet it remains one of the greatest challenges in machine learning engineering. \"It works on my local machine\" is a dangerous phrase when dealing with gigabytes of data and specific GPU driver versions.\n\n      ### The MLOps Trinity\n      \n      To achieve true scalability, we need to treat three distinct artifacts with equal rigor:\n      1. **Code**: Versioned in Git.\n      2. **Data**: Versioned in DVC (Data Version Control).\n      3. **Experiments**: Logged in MLflow.\n\n      ### DVC as the Bridge\n      \n      DVC allows us to version datasets and model weights without bloating our Git repositories. By storing meta-pointers in Git, we can \"checkout\" a specific dataset version just as easily as we checkout a code branch.\n\n      ### Tracking with MLflow\n      \n      Integration with MLflow ensures that every training run is captured. Parameters, metrics, and even model artifacts are logged automatically. In my projects, I use MLflow to compare CNN backbones—quickly identifying which architecture yields the best multi-label classification accuracy for dermatological images.\n    ",
+    "date": "Jan 12, 2024",
+    "readTime": "7 min",
+    "category": "Engineering"
+  },
+  {
+    "id": "3",
+    "title": "Automating the Edge: CI/CD for Embedded AI",
+    "excerpt": "How to use GitHub Actions and ECR to push model updates to edge devices securely. We discuss containerization strategies that minimize footprint while maintaining performance.",
+    "content": "\n      Deploying AI to the cloud is one thing; deploying to the edge is another entirely. Resource constraints, intermittent connectivity, and security requirements make embedded AI a unique challenge.\n\n      ### The Pipeline\n      \n      A robust edge deployment pipeline follows these steps:\n      1. **Standardization**: Containerizing the inference service using Docker.\n      2. **Automation**: Using GitHub Actions to trigger builds on every push.\n      3. **Registry**: Pushing optimized images to AWS ECR (Elastic Container Registry).\n\n      ### Optimizing for Footprint\n      \n      When working with edge devices like AWS EC2 T-series or local IoT gateways, every megabyte counts. I focus on multi-stage builds and specialized inference engines like vLLM or ONNX Runtime to ensure that our models remain responsive without over-consuming memory.\n    ",
+    "date": "Dec 05, 2023",
+    "readTime": "5 min",
+    "category": "Infrastructure"
+  }
+]
