@@ -20,7 +20,8 @@ export const Navbar = ({ darkMode, setDarkMode }: { darkMode: boolean, setDarkMo
     { name: 'Studio', path: '/' },
     { name: 'Deployments', path: '/projects' },
     { name: 'Signals', path: '/blog' },
-    { name: 'Library', path: '/tools' },
+    { name: 'Library', path: '/library' },
+    { name: 'Tools', path: '/tools' },
   ];
 
   return (

@@ -33,7 +33,8 @@ export const Footer = () => (
               <Link to="/" className="hover:text-blue-600 transition-colors">Home</Link>
               <Link to="/projects" className="hover:text-blue-600 transition-colors">Deployments</Link>
               <Link to="/blog" className="hover:text-blue-600 transition-colors">Signals</Link>
-              <Link to="/tools" className="hover:text-blue-600 transition-colors">Library</Link>
+              <Link to="/library" className="hover:text-blue-600 transition-colors">Library</Link>
+              <Link to="/tools" className="hover:text-blue-600 transition-colors">Tools</Link>
             </div>
           </div>
           <div className="space-y-4">
