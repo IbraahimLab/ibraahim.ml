@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rag-expert-pipeline",
+    "title": "rag-expert-pipeline",
+    "description": "A specialized retrieval system architected to handle complex technical documentation for LLM fine-tuning. It utilizes a custom Docling extraction engine to parse multi-modal PDFs, maintains a high-precision vector index in ChromaDB, and includes an automated MLOps pipeline for AWS deployment via GitHub Actions.",
+    "tags": [
+      "FastAPI",
+      "LangChain",
+      "AWS",
+      "Docker",
+      "MLOps"
+    ],
+    "githubUrl": "https://github.com/IbraahimLab",
+    "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "vision-ml-skin-classifier",
+    "title": "vision-ml-skin-classifier",
+    "description": "An end-to-end medical vision pipeline focused on dermatological assessment. The project implements a configuration-driven training approach using YAML, incorporates DVC for data/model versioning, and tracks hyperparameter experiments with MLflow. Deployment is handled via a lightweight Flask inference service containerized with Docker.",
+    "tags": [
+      "PyTorch",
+      "MLflow",
+      "DVC",
+      "CV"
+    ],
+    "githubUrl": "https://github.com/IbraahimLab",
+    "imageUrl": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800"
+  },
+  {
+    "id": "agentic-research-workflow",
+    "title": "agentic-research-workflow",
+    "description": "A sophisticated research agent capable of autonomous tool-augmented reasoning. By utilizing LangGraph, the agent can loop through multiple search phases—querying arXiv for papers, Serper for web context, and local PDF indices—before synthesizing a final response. Includes observability via LangSmith and RAGAS evaluation metrics.",
+    "tags": [
+      "LangGraph",
+      "ChromaDB",
+      "Agentic AI",
+      "RAG"
+    ],
+    "githubUrl": "https://github.com/IbraahimLab",
+    "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=800"
+  }
+]

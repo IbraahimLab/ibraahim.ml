@@ -1,0 +1,776 @@
+[
+  {
+    "id": "train1",
+    "name": "Megatron-LM",
+    "description": "NVIDIA's high-performance framework for training massive transformer models using model parallelism.",
+    "category": "Training & Infra",
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "tags": [
+      "Pre-training",
+      "Model-Parallel",
+      "NVIDIA"
+    ]
+  },
+  {
+    "id": "train2",
+    "name": "DeepSpeed",
+    "description": "Microsoft's optimization library for distributed training, featuring ZeRO (Zero Redundancy Optimizer).",
+    "category": "Training & Infra",
+    "url": "https://github.com/microsoft/DeepSpeed",
+    "tags": [
+      "Optimization",
+      "Distributed",
+      "ZeRO"
+    ]
+  },
+  {
+    "id": "train3",
+    "name": "Colossal-AI",
+    "description": "Unified distributed training system for large-scale AI models, integrating multiple parallelism strategies.",
+    "category": "Training & Infra",
+    "url": "https://github.com/hpcaitech/ColossalAI",
+    "tags": [
+      "Parallelism",
+      "Efficiency"
+    ]
+  },
+  {
+    "id": "train4",
+    "name": "PyTorch FSDP",
+    "description": "Fully Sharded Data Parallelism for scaling model training with lower memory footprints natively in PyTorch.",
+    "category": "Training & Infra",
+    "url": "https://pytorch.org/docs/stable/fsdp.html",
+    "tags": [
+      "Native",
+      "FSDP",
+      "Scaling"
+    ]
+  },
+  {
+    "id": "train5",
+    "name": "Torchtitan",
+    "description": "Meta's clean-slate, PyTorch-native implementation of LLM training used for research and scale.",
+    "category": "Training & Infra",
+    "url": "https://github.com/pytorch/torchtitan",
+    "tags": [
+      "Meta",
+      "PyTorch-Native"
+    ]
+  },
+  {
+    "id": "train6",
+    "name": "GPT-NeoX",
+    "description": "EleutherAI's library for training large-scale language models on GPUs, powered by DeepSpeed.",
+    "category": "Training & Infra",
+    "url": "https://github.com/EleutherAI/gpt-neox",
+    "tags": [
+      "EleutherAI",
+      "Training"
+    ]
+  },
+  {
+    "id": "train7",
+    "name": "Axolotl",
+    "description": "A tool for making LLM fine-tuning easier and more efficient across various architectures.",
+    "category": "Training & Infra",
+    "url": "https://github.com/OpenAccess-AI-Collective/axolotl",
+    "tags": [
+      "Fine-tuning",
+      "Configs"
+    ]
+  },
+  {
+    "id": "train8",
+    "name": "Unsloth",
+    "description": "Highly optimized kernels that make LLM fine-tuning 2x faster and use 70% less memory.",
+    "category": "Training & Infra",
+    "url": "https://github.com/unslothai/unsloth",
+    "tags": [
+      "Optimization",
+      "Fast-Fine-tuning"
+    ]
+  },
+  {
+    "id": "train9",
+    "name": "NanoGPT",
+    "description": "Andrej Karpathy's repository for training medium-sized GPTs; excellent for educational pre-training.",
+    "category": "Training & Infra",
+    "url": "https://github.com/karpathy/nanoGPT",
+    "tags": [
+      "Educational",
+      "Clean-Code"
+    ]
+  },
+  {
+    "id": "t1",
+    "name": "LangChain",
+    "description": "Comprehensive framework for developing applications powered by LLMs.",
+    "category": "LLM Frameworks",
+    "url": "https://langchain.com",
+    "tags": [
+      "Orchestration",
+      "RAG"
+    ]
+  },
+  {
+    "id": "t4",
+    "name": "LlamaIndex",
+    "description": "Data framework for LLM applications to connect custom data sources.",
+    "category": "LLM Frameworks",
+    "url": "https://www.llamaindex.ai",
+    "tags": [
+      "Data",
+      "Indexing"
+    ]
+  },
+  {
+    "id": "t5",
+    "name": "Haystack",
+    "description": "Open-source NLP framework to build search systems and RAG pipelines.",
+    "category": "LLM Frameworks",
+    "url": "https://haystack.deepset.ai",
+    "tags": [
+      "Search",
+      "NLP"
+    ]
+  },
+  {
+    "id": "t6",
+    "name": "DSPy",
+    "description": "Framework for programming—rather than prompting—language models.",
+    "category": "LLM Frameworks",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "tags": [
+      "Optimization",
+      "Logic"
+    ]
+  },
+  {
+    "id": "t7",
+    "name": "AutoGen",
+    "description": "Framework for building multi-agent systems that converse to solve tasks.",
+    "category": "LLM Frameworks",
+    "url": "https://microsoft.github.io/autogen",
+    "tags": [
+      "Agents",
+      "Multi-Agent"
+    ]
+  },
+  {
+    "id": "t8",
+    "name": "CrewAI",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents.",
+    "category": "LLM Frameworks",
+    "url": "https://www.crewai.com",
+    "tags": [
+      "Agents",
+      "Collaboration"
+    ]
+  },
+  {
+    "id": "t9",
+    "name": "LangGraph",
+    "description": "Library for building stateful, multi-actor applications with LLMs.",
+    "category": "LLM Frameworks",
+    "url": "https://langchain-ai.github.io/langgraph",
+    "tags": [
+      "State-Machine",
+      "Cycles"
+    ]
+  },
+  {
+    "id": "t10",
+    "name": "Guidance",
+    "description": "A guidance language for controlling large language models.",
+    "category": "LLM Frameworks",
+    "url": "https://github.com/guidance-ai/guidance",
+    "tags": [
+      "Constrained-Output",
+      "Template"
+    ]
+  },
+  {
+    "id": "t11",
+    "name": "Outlines",
+    "description": "Guided text generation for LLMs with regex and JSON schema support.",
+    "category": "LLM Frameworks",
+    "url": "https://github.com/outlines-dev/outlines",
+    "tags": [
+      "JSON",
+      "Structured"
+    ]
+  },
+  {
+    "id": "t12",
+    "name": "Instructor",
+    "description": "Structured extraction from LLMs using Pydantic models.",
+    "category": "LLM Frameworks",
+    "url": "https://github.com/jxnl/instructor",
+    "tags": [
+      "Pydantic",
+      "Extraction"
+    ]
+  },
+  {
+    "id": "t13",
+    "name": "Semantic Kernel",
+    "description": "SDK that integrates LLMs with conventional programming languages.",
+    "category": "LLM Frameworks",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "tags": [
+      "SDK",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "t2",
+    "name": "vLLM",
+    "description": "High-throughput and memory-efficient inference engine for LLMs.",
+    "category": "OS Models",
+    "url": "https://github.com/vllm-project/vllm",
+    "tags": [
+      "Inference",
+      "Cuda"
+    ]
+  },
+  {
+    "id": "t14",
+    "name": "Llama 3.1",
+    "description": "Meta's state-of-the-art open source large language model.",
+    "category": "OS Models",
+    "url": "https://llama.meta.com",
+    "tags": [
+      "Base-Model",
+      "Open-Weights"
+    ]
+  },
+  {
+    "id": "t15",
+    "name": "Mistral NeMo",
+    "description": "12B parameter model built in collaboration with NVIDIA.",
+    "category": "OS Models",
+    "url": "https://mistral.ai",
+    "tags": [
+      "Efficiency",
+      "Mistral"
+    ]
+  },
+  {
+    "id": "t16",
+    "name": "DeepSeek-V2",
+    "description": "Strong MoE (Mixture of Experts) model with excellent coding abilities.",
+    "category": "OS Models",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V2",
+    "tags": [
+      "MoE",
+      "Coding"
+    ]
+  },
+  {
+    "id": "t17",
+    "name": "Gemma 2",
+    "description": "Google's lightweight, state-of-the-art open models built from Gemini technology.",
+    "category": "OS Models",
+    "url": "https://ai.google.dev/gemma",
+    "tags": [
+      "Google",
+      "Lightweight"
+    ]
+  },
+  {
+    "id": "t18",
+    "name": "Phi-3.5",
+    "description": "Microsoft's small language models with massive reasoning capabilities.",
+    "category": "OS Models",
+    "url": "https://github.com/microsoft/Phi-3CookBook",
+    "tags": [
+      "SLM",
+      "Edge"
+    ]
+  },
+  {
+    "id": "t19",
+    "name": "Qwen 2.5",
+    "description": "Alibaba's latest series of LLMs with strong multilingual and math skills.",
+    "category": "OS Models",
+    "url": "https://github.com/QwenLM/Qwen2.5",
+    "tags": [
+      "Multilingual",
+      "Math"
+    ]
+  },
+  {
+    "id": "t20",
+    "name": "Grok-1",
+    "description": "xAI's 314 billion parameter Mixture-of-Experts model.",
+    "category": "OS Models",
+    "url": "https://github.com/xai-org/grok-1",
+    "tags": [
+      "Massive",
+      "xAI"
+    ]
+  },
+  {
+    "id": "t21",
+    "name": "Falcon 180B",
+    "description": "TII's massive model, one of the largest open-access weights.",
+    "category": "OS Models",
+    "url": "https://falconllm.tii.ae",
+    "tags": [
+      "UAE",
+      "Scale"
+    ]
+  },
+  {
+    "id": "t22",
+    "name": "StarCoder2",
+    "description": "Open LLMs for code, trained on The Stack v2.",
+    "category": "OS Models",
+    "url": "https://github.com/bigcode-project/starcoder2",
+    "tags": [
+      "Code",
+      "Training"
+    ]
+  },
+  {
+    "id": "t23",
+    "name": "Stable Diffusion XL",
+    "description": "The gold standard for high-quality open-source image generation.",
+    "category": "OS Models",
+    "url": "https://github.com/Stability-AI/generative-models",
+    "tags": [
+      "Vision",
+      "Diffusion"
+    ]
+  },
+  {
+    "id": "p1",
+    "name": "Machine Learning Specialization",
+    "description": "Andrew Ng's legendary course, recently updated with modern ML techniques.",
+    "category": "Playlists",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "tags": [
+      "DeepLearning.AI",
+      "Basics"
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Neural Networks: Zero to Hero",
+    "description": "Andrej Karpathy's elite series on building neural networks from scratch.",
+    "category": "Playlists",
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "tags": [
+      "Karpathy",
+      "Implementation"
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Practical Deep Learning for Coders",
+    "description": "Fast.ai's top-down approach to mastering deep learning applications.",
+    "category": "Playlists",
+    "url": "https://course.fast.ai/",
+    "tags": [
+      "Fast.ai",
+      "Practical"
+    ]
+  },
+  {
+    "id": "p4",
+    "name": "CS231n: Vision Deep Learning",
+    "description": "Stanford's premier course on convolutional neural networks for visual recognition.",
+    "category": "Playlists",
+    "url": "http://cs231n.stanford.edu/",
+    "tags": [
+      "Stanford",
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "p5",
+    "name": "CS224n: NLP with Deep Learning",
+    "description": "Stanford's comprehensive guide to the latest in natural language processing.",
+    "category": "Playlists",
+    "url": "http://web.stanford.edu/class/cs224n/",
+    "tags": [
+      "Stanford",
+      "NLP"
+    ]
+  },
+  {
+    "id": "p6",
+    "name": "MIT 6.S191: Deep Learning",
+    "description": "Intensive introduction to deep learning algorithms and their applications.",
+    "category": "Playlists",
+    "url": "http://introtodeeplearning.com/",
+    "tags": [
+      "MIT",
+      "Algorithms"
+    ]
+  },
+  {
+    "id": "paper_ds_r1",
+    "name": "DeepSeek-R1",
+    "description": "Groundbreaking 2025 paper on incentivizing reasoning via pure Reinforcement Learning (RL), establishing new open-source benchmarks.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "tags": [
+      "DeepSeek",
+      "RL",
+      "Reasoning"
+    ]
+  },
+  {
+    "id": "paper_cot",
+    "name": "Chain-of-Thought Prompting",
+    "description": "The foundational work that proved eliciting intermediate reasoning steps significantly improves LLM performance.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "tags": [
+      "CoT",
+      "Elicitation"
+    ]
+  },
+  {
+    "id": "paper_zs_cot",
+    "name": "Zero-Shot CoT",
+    "description": "The famous \"Let's think step by step\" paper, demonstrating that reasoning is an emergent zero-shot capability.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2205.11916",
+    "tags": [
+      "Zero-Shot",
+      "CoT"
+    ]
+  },
+  {
+    "id": "paper_star",
+    "name": "STaR: Self-Taught Reasoner",
+    "description": "Bootstrapping reasoning by letting models generate and learn from their own correct reasoning traces.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2203.14465",
+    "tags": [
+      "Self-Taught",
+      "Training"
+    ]
+  },
+  {
+    "id": "paper_tot",
+    "name": "Tree of Thoughts",
+    "description": "A framework for deliberate problem solving by exploring and self-evaluating multiple reasoning branches.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "tags": [
+      "ToT",
+      "Search"
+    ]
+  },
+  {
+    "id": "paper_bot",
+    "name": "Buffer of Thoughts",
+    "description": "Thought-augmented reasoning that uses a meta-buffer of \"thought templates\" to solve complex tasks efficiently.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2406.04271",
+    "tags": [
+      "Efficiency",
+      "Logic"
+    ]
+  },
+  {
+    "id": "paper_react",
+    "name": "ReAct: Reasoning & Acting",
+    "description": "Integrating reasoning traces and task-specific actions to create reliable autonomous agent loops.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "tags": [
+      "Agents",
+      "Tool-Use"
+    ]
+  },
+  {
+    "id": "paper_prm",
+    "name": "Let's Verify Step by Step",
+    "description": "Introduction of Process-based Reward Models (PRMs) to reward logic steps instead of just final outcomes.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "tags": [
+      "PRM",
+      "Alignment"
+    ]
+  },
+  {
+    "id": "paper_sc",
+    "name": "Self-Consistency for CoT",
+    "description": "A decoding strategy that samples multiple reasoning paths and selects the most consistent answer.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2203.11171",
+    "tags": [
+      "Self-Consistency",
+      "Decoding"
+    ]
+  },
+  {
+    "id": "paper_cove",
+    "name": "Chain-of-Verification (CoVe)",
+    "description": "Method for models to deliberate on their own responses to reduce hallucinations through self-correction.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2309.11495",
+    "tags": [
+      "Hallucination",
+      "Verification"
+    ]
+  },
+  {
+    "id": "paper_quiet_star",
+    "name": "Quiet-STaR",
+    "description": "Algorithm that allows models to reason \"quietly\" in the background of every token produced.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2403.09629",
+    "tags": [
+      "Background-Reasoning",
+      "STaR"
+    ]
+  },
+  {
+    "id": "paper_reflexion",
+    "name": "Reflexion: Language Agents",
+    "description": "Agentic framework using linguistic feedback to reinforce successful reasoning strategies.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "tags": [
+      "Feedback",
+      "Reinforcement"
+    ]
+  },
+  {
+    "id": "paper1",
+    "name": "Attention Is All You Need",
+    "description": "The foundational paper that introduced the Transformer architecture.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "tags": [
+      "Transformer",
+      "Must-Read"
+    ]
+  },
+  {
+    "id": "paper2",
+    "name": "ResNet: Deep Residual Learning",
+    "description": "The paper that enabled training of extremely deep neural networks via skip connections.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/1512.03385",
+    "tags": [
+      "Computer Vision",
+      "ResNet"
+    ]
+  },
+  {
+    "id": "paper3",
+    "name": "BERT: Pre-training Transformers",
+    "description": "Introduced bidirectional pre-training for language understanding tasks.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "tags": [
+      "NLP",
+      "BERT"
+    ]
+  },
+  {
+    "id": "paper4",
+    "name": "Adam Optimizer",
+    "description": "The definitive paper on the most widely used optimization algorithm in DL.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/1412.6980",
+    "tags": [
+      "Optimization",
+      "Adam"
+    ]
+  },
+  {
+    "id": "paper5",
+    "name": "YOLO: You Only Look Once",
+    "description": "A revolutionary approach to real-time object detection.",
+    "category": "Papers",
+    "url": "https://arxiv.org/abs/1506.02640",
+    "tags": [
+      "Object Detection",
+      "Vision"
+    ]
+  },
+  {
+    "id": "t24",
+    "name": "Lambda Labs",
+    "description": "GPU cloud with top-tier training and inference performance.",
+    "category": "Cloud Platforms",
+    "url": "https://lambdalabs.com",
+    "tags": [
+      "GPU",
+      "H100"
+    ]
+  },
+  {
+    "id": "t25",
+    "name": "RunPod",
+    "description": "Rent GPUs for AI/ML workloads with easy Docker integration.",
+    "category": "Cloud Platforms",
+    "url": "https://www.runpod.io",
+    "tags": [
+      "Serverless",
+      "On-Demand"
+    ]
+  },
+  {
+    "id": "t26",
+    "name": "Together AI",
+    "description": "The fastest cloud platform for fine-tuning and inference.",
+    "category": "Cloud Platforms",
+    "url": "https://www.together.ai",
+    "tags": [
+      "API",
+      "Fine-Tuning"
+    ]
+  },
+  {
+    "id": "t27",
+    "name": "Groq",
+    "description": "LPU inference engine delivering unprecedented speed for LLMs.",
+    "category": "Cloud Platforms",
+    "url": "https://groq.com",
+    "tags": [
+      "Inference",
+      "LPU"
+    ]
+  },
+  {
+    "id": "t28",
+    "name": "Anyscale",
+    "description": "Managed Ray platform for scaling AI and Python workloads.",
+    "category": "Cloud Platforms",
+    "url": "https://www.anyscale.com",
+    "tags": [
+      "Ray",
+      "Compute"
+    ]
+  },
+  {
+    "id": "t29",
+    "name": "Modal",
+    "description": "The fastest way to run generative AI code in the cloud.",
+    "category": "Cloud Platforms",
+    "url": "https://modal.com",
+    "tags": [
+      "Serverless",
+      "Pythonic"
+    ]
+  },
+  {
+    "id": "t3",
+    "name": "DVC",
+    "description": "Open-source Data Version Control for machine learning projects.",
+    "category": "Data Curation",
+    "url": "https://dvc.org",
+    "tags": [
+      "Versioning",
+      "Git"
+    ]
+  },
+  {
+    "id": "t34",
+    "name": "Unstructured.io",
+    "description": "Open source library to ingest and preprocess unstructured data for RAG.",
+    "category": "Data Curation",
+    "url": "https://unstructured.io",
+    "tags": [
+      "Preprocessing",
+      "PDF"
+    ]
+  },
+  {
+    "id": "t35",
+    "name": "Label Studio",
+    "description": "Multi-type data labeling and annotation tool for AI.",
+    "category": "Data Curation",
+    "url": "https://labelstud.io",
+    "tags": [
+      "Annotation",
+      "Open-Source"
+    ]
+  },
+  {
+    "id": "t36",
+    "name": "Cleanlab",
+    "description": "Software to find and fix label errors in datasets automatically.",
+    "category": "Data Curation",
+    "url": "https://cleanlab.ai",
+    "tags": [
+      "Quality",
+      "Cleaning"
+    ]
+  },
+  {
+    "id": "t40",
+    "name": "LangSmith",
+    "description": "Platform for debugging, testing, and monitoring LLM applications.",
+    "category": "Data Curation",
+    "url": "https://www.langchain.com/langsmith",
+    "tags": [
+      "Observability",
+      "Traces"
+    ]
+  },
+  {
+    "id": "t43",
+    "name": "Hugging Face Discord",
+    "description": "The main hub for modern AI research and implementation discussions.",
+    "category": "Communities",
+    "url": "https://huggingface.co/join/discord",
+    "tags": [
+      "Hub",
+      "Collaboration"
+    ]
+  },
+  {
+    "id": "t44",
+    "name": "LocalLLaMA",
+    "description": "Reddit community dedicated to running LLMs on consumer hardware.",
+    "category": "Communities",
+    "url": "https://www.reddit.com/r/LocalLLaMA",
+    "tags": [
+      "Edge",
+      "Consumer"
+    ]
+  },
+  {
+    "id": "t45",
+    "name": "EleutherAI",
+    "description": "Grass-roots non-profit AI research lab known for GPT-Neo/J.",
+    "category": "Communities",
+    "url": "https://www.eleuther.ai",
+    "tags": [
+      "Research",
+      "Open-Science"
+    ]
+  },
+  {
+    "id": "t46",
+    "name": "MLOps.community",
+    "description": "The definitive place to talk about machine learning in production.",
+    "category": "Communities",
+    "url": "https://mlops.community",
+    "tags": [
+      "Operations",
+      "Networking"
+    ]
+  },
+  {
+    "id": "t47",
+    "name": "Latent Space",
+    "description": "Newsletter and community focused on the \"AI Engineer\" transition.",
+    "category": "Communities",
+    "url": "https://www.latent.space",
+    "tags": [
+      "Learning",
+      "Trends"
+    ]
+  }
+]
