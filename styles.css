@@ -1,0 +1,53 @@
+:root {
+    --accent: #3b82f6;
+    --bg-dark: #020408;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #fafafa;
+}
+
+.dark body {
+    background-color: var(--bg-dark);
+}
+
+.mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.bento-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 2rem;
+    padding: 2rem;
+    transition: all 0.5s ease;
+}
+
+.bento-card:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    box-shadow: 0 25px 50px -12px rgba(59, 130, 246, 0.15);
+}
+
+.dark .bento-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.glow {
+    box-shadow: 0 0 80px -20px var(--accent);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #1d4ed8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.2);
+    border-radius: 10px;
+}

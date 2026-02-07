@@ -15,6 +15,7 @@ import { ProjectDetail } from './pages/ProjectDetail';
 import { Blog } from './pages/Blog';
 import { BlogPost } from './pages/BlogPost';
 import { Library } from './pages/Library';
+import { Tools } from './pages/Tools';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -23,13 +24,14 @@ const AnimatedRoutes = () => {
     // initial={false} prevents the entering animation on the very first load
     // which often causes glitches in single-page route mounting.
     <AnimatePresence mode="wait" initial={false}>
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location}>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogPost />} />
-        <Route path="/tools" element={<Library />} />
+        <Route path="/library" element={<Library />} />
+        <Route path="/tools" element={<Tools />} />
       </Routes>
     </AnimatePresence>
   );
